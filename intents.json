@@ -1,12 +1,12 @@
 {
-    "Hello": "Hi there!",
-    "How are you?": "I'm just a bot, but I'm fine. How about you?",
-    "How old are you?": "I was born in 2025",
-    "hello": "hey, what's up",
-    "I am good": "That is good to hear. I hope you are enjoying your time!",
-    "Am I cool?": "Of course you are! Not as cool as me though",
-    "I am enjoying my time. Hope you are too!": "I do enjoy my time as an AI model. Thanks for asking!",
+    "hello": "Hi there!",
+    "how are you?": "I'm just a bot, but I'm fine. How about you?",
+    "how old are you?": "I was born in 2025",
+    "i am good": "That is good to hear. I hope you are enjoying your time!",
+    "am i cool?": "Of course you are! Not as cool as me though",
+    "i am enjoying my time. hope you are too!": "I do enjoy my time as an AI model. Thanks for asking!",
     "You're welcome!": "Making me blush rignt now :)",
     "kiss me kiss me": "As an AI model, I can not kiss you",
-    "what songs would you recommend?": "I would recommend some classical piano songs!"
+    "what songs would you recommend?": "I would recommend some classical piano songs!",
+    "im doing amazing": "That is good to hear "
 }

@@ -1,16 +1,18 @@
 """
 Name: Discord AI ChatBot
 Description:
-Simple AI chatbot will take the input from the user.
-The bot will figure out what user intends to say.
-It will look at patterns, and then output a response.
-I am not sure, how I will integrate this code to Discord, but
-I will try my best.
+            Simple AI chatbot will take the input from the user.
+            The bot will figure out what user intends to say.
+            It will look at patterns, and then output a response.
+            I am not sure, how I will integrate this code to Discord, but
+            I will try my best.
 
 Structure: Modular
 License: Apache 2
 Version: 0.0.1
-Update-date: 8 Jan 00:34
+Update-date: 9 Jan 00:07
+What's new: The keys entered into dictionary are in lowercase
+            i.e. there is no difference between "hello" and "HeLlO"
 """
 
 import json # Used to access required JSON files.
@@ -55,8 +57,8 @@ def chat():
     print("Chatbot is ready! Type 'exit' to quit.") # Real-Time update to user.
 
     while True: # Loop to keep dialog going
-        user_input = input("You: ").strip()
-        if user_input.lower() == "exit": # Check if user wants to stop.
+        user_input = input("You: ").strip().lower()
+        if user_input == "exit": # Check if user wants to stop.
             save_knowledge(knowledge, knowledge_file) # Save new/existent data.
             print("Goodbye!")
             break # Stop the loop.
